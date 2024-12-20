@@ -1,0 +1,54 @@
+main{
+
+height:869px;
+width:calc(100% - 243px );
+
+
+
+}
+
+.main1 {
+    width: 100%;
+    height: 56px;
+   
+
+  
+display:flex;
+    align-items: center;
+    justify-content: center;
+  
+
+border-bottom: 2px solid  grey ;
+border-top: 2px solid  grey ;
+background-color:rgba(128, 128, 128, 0.404);
+}
+
+.main2{
+
+
+    display:grid;
+    grid-template-columns: 52px 76px 47px 82px 62px 64px 94px 96px 94px 120px 124px;
+    width: 1120px;
+    height:30px;
+    grid-template-rows: repeat(auto-fill,30px);
+  gap:10px;
+
+
+
+
+  
+}
+button{
+
+border-radius: 30px;
+
+  
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+border: 2px solid white;
+background-color: #4b4040;
+color:white
+}
